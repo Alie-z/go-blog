@@ -11,8 +11,8 @@ import (
 	"fmt"
 )
 
-//@host 127.0.0.1:8081
-//@BasePath /api/v1/
+// @host 127.0.0.1:8181
+// @BasePath /api/v1/
 func main() {
 	//var confFile string
 	//flag.StringVar(&confFile, "conf", "./conf/config.yaml", "配置文件")

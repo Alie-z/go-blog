@@ -636,7 +636,7 @@ const docTemplate_swagger = `{
 // SwaggerInfo_swagger holds exported Swagger Info so clients can modify it
 var SwaggerInfo_swagger = &swag.Spec{
 	Version:          "1.0",
-	Host:             "127.0.0.1:8081",
+	Host:             "127.0.0.1:8181",
 	BasePath:         "/api/v1/",
 	Schemes:          []string{},
 	Title:            "bluebell_backend",

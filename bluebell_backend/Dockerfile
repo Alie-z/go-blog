@@ -42,7 +42,7 @@ COPY --from=builder /build/bluebell_app /
 #    && chmod 755 wait-for.sh
 
 # 声明服务端口
-EXPOSE 8081
+EXPOSE 8181
 
 # 需要运行的命令
 ENTRYPOINT ["/bluebell_app", "conf/config.yaml"]

@@ -47,7 +47,7 @@ COPY --from=builder /build/bluebell_app /
 #    && chmod 755 wait-for.sh
 
 # 声明服务端口
-EXPOSE 8081
+EXPOSE 8181
 
 # 需要运行的命令
 ENTRYPOINT ["/bluebell_app", "conf/config.yaml"]
@@ -56,7 +56,7 @@ ENTRYPOINT ["/bluebell_app", "conf/config.yaml"]
 > docker build -t bluebell_app .
 
 **启动容器**
-> docker run -d -p 8081:8081 --name bluebell_app bluebell_app
+> docker run -d -p 8181:8181 --name bluebell_app bluebell_app
 
 **查看容器日志**
 > docker logs -f bluebell_app

@@ -3,10 +3,10 @@ module.exports = {
     devServer: {
         proxy: {
             '/api/v1': {
-                target: 'http://127.0.0.1:8181',
+                // target: 'http://127.0.0.1:8181',
+                target: 'http://api.at-will.cn',
                 changeOrigin: true
             }
-        },
-        port: 8000 // 更改为您想要使用的端口号
+        }
     }
 };
